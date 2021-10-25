@@ -2,8 +2,8 @@ let number = document.getElementById("text");
 let controlButton = document.getElementById("check");
 let feedback = document.getElementById("feedback");
 let highScore = document.getElementById("highscore");
-let myGuess = Math.floor(Math.random() * 100);
-let x = 20;
+let myGuess = Math.floor(Math.random() * 100)+1;
+let x = 100;
 controlButton.addEventListener("click", () => {
   let mynumber = number.value;
 
