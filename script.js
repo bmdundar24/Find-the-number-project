@@ -14,7 +14,7 @@ controlButton.addEventListener("click", () => {
 
 function checkNumber(num) {
   if (num == myGuess) {
-    return ` Conguralitions you find the my ${num} number.`;
+    return ` 🎊🎊Conguralitions you find the my ${num} number.🎊🎊`;
   } else if (num < myGuess) {
     return ` Sory your gues lower than my number. `;
   } else {
