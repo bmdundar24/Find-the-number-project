@@ -8,6 +8,7 @@ controlButton.addEventListener("click", () => {
   let mynumber = number.value;
 
   
+  
   feedback.innerHTML = checkNumber(parseInt(mynumber));
 
   highScore.innerHTML = ` Your score is ${--x}`;
