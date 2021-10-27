@@ -9,6 +9,7 @@ controlButton.addEventListener("click", () => {
   feedback.innerHTML = checkNumber(parseInt(mynumber));
 
   
+  
   highScore.innerHTML = ` Your score is ${--x}`;
 });
 
