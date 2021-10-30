@@ -9,7 +9,6 @@ controlButton.addEventListener("click", () => {
   feedback.innerHTML = checkNumber(parseInt(mynumber));
   highScore.innerHTML = ` Your score is ${--x}`;
 });
-
 function checkNumber(num) {
   if (num == myGuess) {
     return ` 🎊🎊Conguralitions you find the my ${num} number.🎊🎊`;
