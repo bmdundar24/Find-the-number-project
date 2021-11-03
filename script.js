@@ -6,6 +6,7 @@ let myGuess = Math.floor(Math.random() * 100)+1;
 let x = 100;
 
 
+
 controlButton.addEventListener("click", () => {
   let mynumber = number.value;
   feedback.innerHTML = checkNumber(parseInt(mynumber));
